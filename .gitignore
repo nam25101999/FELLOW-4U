@@ -1,0 +1,46 @@
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+android/app/src/main/res/values/strings.xml
+android/local.properties
+
+# Node/React/Next.js
+node_modules/
+.next/
+dist/
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+.history/
+
+# Artifacts & Temporary files
+backend/uploads/location/*
+!backend/uploads/location/images.jpg
+!backend/uploads/location/images_1.jpg
+!backend/uploads/location/tai_xuong*
+MUC_LUC_FELLOW4U.docx
+TRANG_BIA_FELLOW4U.docx
+BAO_CAO_FELLOW4U_CHUA_NOI_DUNG.docx
+generate_*.py
+fellow4u_summary.txt
